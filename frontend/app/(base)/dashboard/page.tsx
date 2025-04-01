@@ -3,7 +3,7 @@ import { getAllTodosByUserid } from "@/actions/todo.actions";
 import Analytics from "@/components/base/dashboard/Analytics";
 import TodosContainer from "@/components/base/dashboard/TodosContainer";
 import { useSession } from "@clerk/nextjs";
-import { Todo } from "@prisma/client";
+import type { Todo } from "@prisma/client";
 import React from "react";
 
 const page = () => {
